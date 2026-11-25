@@ -1,6 +1,6 @@
 import { isDeepStrictEqual } from 'node:util';
 import { parse } from 'yaml';
-import { check, error, projectFile, readProjectFile, service, text, verdict, z } from '@cairul/plugin-kit';
+import { check, error, projectFile, readProjectFile, service, text, verdict, z } from '@cairul/pdk';
 
 function matchesDocument(parseDocument) {
   return check(

@@ -10,14 +10,14 @@
     "node": ">=24"
   },
   "dependencies": {
-    "@cairul/plugin-kit": ">=0.1.0 <1.0.0",
+    "@cairul/pdk": ">=0.1.0 <1.0.0",
     "yaml": "^2.9.1"
   },
   "license": "Apache-2.0",
   "description": "Cairul checks for workspace.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CairulMCP/cairul-workspace-plugin.git"
+    "url": "git+https://github.com/cairul-hq/cairul-workspace-plugin.git"
   },
   "scripts": {
     "build": "node --check index.mjs",
